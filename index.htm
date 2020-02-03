@@ -1,0 +1,105 @@
+<!doctype HTML>
+
+<head>
+	<title>Kartik Keyboard</title>
+	<link href="kartik.css" rel="stylesheet">
+<meta charset="UTF-8">
+
+
+
+</head>
+
+<body>
+<div class ="textarea container1">
+
+<input placeholder="Put your text here" type="text" id="textInput" class="display">
+
+</div>
+<div class = "container1">
+	
+<div class="border">
+	<form class="container">
+				<span>
+					<button type="button" class="numbers" onclick="getNumber(1)">`~</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">1</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">2</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">3</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">4</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">5</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">6</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">7</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">8</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">9</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">0</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">-</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">=</button>
+					<button type="button" class="numbers">Backspace</button>
+					
+				</span>
+				<span>
+					<button type="button" class="numbers">Tab</button>
+					<button type="button" class="numbers"  onclick="letterToBangla()">Q</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">W</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">E</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">R</button>
+					<button type="button" class="numbers" onclick="getNumber(2)">R</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">T</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">Y</button>
+					<button type="button" class="numbers" onclick="letterToBangla('u')">U</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">I</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">O</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">P</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">{</button>
+					<button type="button" class="numbers"  onclick="getNumber(2)">}</button>
+					<button type="button" class="numbers"  onclick="getNumber(2)">|</button>
+				</span>
+				<span>	
+					<button type="button" class="numbers" onclick="getNumber(1)">CapsLock</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">A</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">S</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">D</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">F</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">G</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">H</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">J</button>
+					<button type="button" class="numbers" onclick="letterToBangla('u')">U</button>
+					<button type="button" class="numbers" onclick="letterToBangla('i')">I</button>
+					<button type="button" class="numbers" onclick="letterToBangla('k')">K</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">L</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">:;</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">"'</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">Enter</button>
+				</span>	
+				<span> 
+					<button type="button" class="numbers" onclick="getNumber(1)"> ____Shift_____ </button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">Z</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">X</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">C</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">V</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">B</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">N</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">M</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">\<,</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">>.</button>
+					<button type="button" class="numbers" onclick="getNumber(3)"> ____Shift_____ </button>
+				</span>
+				<span> 
+					<button type="button" class="numbers" onclick="getNumber(1)"> Ctrl </button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">Window</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">Alt</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">._______________Spacebar______________.</button>
+					<button type="button" class="numbers" onclick="getNumber(1)">Alt</button>
+					<button type="button" class="numbers"   onclick="getNumber(2)">Window</button>
+					<button type="button" class="numbers" onclick="getNumber(3)">List</button>
+					<button type="button" class="numbers operation-button" onclick="operation('d')">Ctlr</button>
+				</span>
+
+  </form>
+</div>
+</div>	
+<div class ="credits">
+Designed by Srabon, JavaScript by Zuzanna
+</div>
+ </body>
+ <script src="kartik.js"></script>
+  </html>
